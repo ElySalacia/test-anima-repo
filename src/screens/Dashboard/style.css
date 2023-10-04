@@ -1,0 +1,392 @@
+.dashboard {
+  background-color: var(--salacia-colors-blue-5);
+  height: 1024px;
+  width: 1440px;
+}
+
+.dashboard .overlap {
+  height: 1024px;
+  position: relative;
+}
+
+.dashboard .paper-2 {
+  align-items: flex-start;
+  background-color: #ffffffcc;
+  border-radius: var(--sizing-2);
+  box-shadow: 0px 0px 100px #002fff1a;
+  display: flex;
+  flex-direction: column;
+  height: 944px;
+  left: 264px;
+  overflow: hidden;
+  padding: 16px;
+  position: absolute;
+  top: 58px;
+  width: 1160px;
+}
+
+.dashboard .frame-2 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 16px;
+  position: relative;
+  width: 100%;
+}
+
+.dashboard .frame-3 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 32px;
+  position: relative;
+  width: 100%;
+}
+
+.dashboard .frame-4 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 8px;
+  position: relative;
+  width: 100%;
+}
+
+.dashboard .design-component-instance-node-2 {
+  flex: 0 0 auto !important;
+}
+
+.dashboard .breadcrumbs-instance {
+  color: var(--palette-text-secondary) !important;
+  font-family: var(--typography-body2-font-family) !important;
+  font-size: var(--typography-body2-font-size) !important;
+  font-style: var(--typography-body2-font-style) !important;
+  font-weight: var(--typography-body2-font-weight) !important;
+  letter-spacing: var(--typography-body2-letter-spacing) !important;
+  line-height: var(--typography-body2-line-height) !important;
+}
+
+.dashboard .breadcrumbs-2 {
+  font-family: var(--typography-body2-font-family) !important;
+  font-size: var(--typography-body2-font-size) !important;
+  font-style: var(--typography-body2-font-style) !important;
+  font-weight: var(--typography-body2-font-weight) !important;
+  letter-spacing: var(--typography-body2-letter-spacing) !important;
+  line-height: var(--typography-body2-line-height) !important;
+}
+
+.dashboard .divider-horizontal-instance {
+  align-self: stretch !important;
+  flex: 0 0 auto !important;
+  width: 100% !important;
+}
+
+.dashboard .frame-5 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 8px;
+  position: relative;
+}
+
+.dashboard .typography-3 {
+  font-family: var(--typography-h1-font-family) !important;
+  font-size: var(--typography-h1-font-size) !important;
+  font-style: var(--typography-h1-font-style) !important;
+  font-weight: var(--typography-h1-font-weight) !important;
+  letter-spacing: var(--typography-h1-letter-spacing) !important;
+  line-height: var(--typography-h1-line-height) !important;
+}
+
+.dashboard .frame-6 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  position: relative;
+  width: 100%;
+}
+
+.dashboard .graph-wrapper {
+  align-items: flex-start;
+  background-color: var(--palette-background-paper-elevation-1);
+  border: 1px solid;
+  border-color: var(--palette-elevation-outlined);
+  border-radius: var(--shape-borderradius);
+  display: flex;
+  flex-direction: column;
+  height: 471px;
+  overflow: hidden;
+  padding: 24px;
+  position: relative;
+  width: 744px;
+}
+
+.dashboard .graph-instance {
+  align-self: stretch !important;
+  flex: 1 !important;
+  flex-grow: 1 !important;
+  position: relative !important;
+  width: 100% !important;
+}
+
+.dashboard .paper-3 {
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: var(--palette-background-paper-elevation-1);
+  border: 1px solid;
+  border-color: var(--palette-elevation-outlined);
+  border-radius: var(--shape-borderradius);
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 8px;
+  overflow: hidden;
+  padding: 24px;
+  position: relative;
+}
+
+.dashboard .text-wrapper-4 {
+  color: #000000;
+  font-family: var(--typography-subtitle1-font-family);
+  font-size: var(--typography-subtitle1-font-size);
+  font-style: var(--typography-subtitle1-font-style);
+  font-weight: var(--typography-subtitle1-font-weight);
+  letter-spacing: var(--typography-subtitle1-letter-spacing);
+  line-height: var(--typography-subtitle1-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.dashboard .frame-7 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 24px;
+  position: relative;
+  width: 100%;
+}
+
+.dashboard .button {
+  all: unset;
+  align-items: center;
+  background-color: var(--palette-primary-main);
+  border-radius: var(--shape-borderradius);
+  box-shadow: var(--elevation-2);
+  box-sizing: border-box;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  padding: 4px 10px;
+  position: relative;
+}
+
+.dashboard .base {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  justify-content: center;
+  position: relative;
+}
+
+.dashboard .masked-icon {
+  height: 18px;
+  position: relative;
+  width: 16px;
+}
+
+.dashboard .icon-left {
+  height: 18px !important;
+  left: -2px !important;
+  position: absolute !important;
+  top: 0 !important;
+  width: 18px !important;
+}
+
+.dashboard .button-2 {
+  all: unset;
+  box-sizing: border-box;
+  color: var(--palette-primary-contrast);
+  font-family: var(--button-small-font-family);
+  font-size: var(--button-small-font-size);
+  font-style: var(--button-small-font-style);
+  font-weight: var(--button-small-font-weight);
+  letter-spacing: var(--button-small-letter-spacing);
+  line-height: var(--button-small-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.dashboard .div-wrapper {
+  align-items: center;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  position: relative;
+  width: 312px;
+}
+
+.dashboard .text-wrapper-5 {
+  color: #000000;
+  flex: 1;
+  font-family: var(--typography-subtitle1-font-family);
+  font-size: var(--typography-subtitle1-font-size);
+  font-style: var(--typography-subtitle1-font-style);
+  font-weight: var(--typography-subtitle1-font-weight);
+  letter-spacing: var(--typography-subtitle1-letter-spacing);
+  line-height: var(--typography-subtitle1-line-height);
+  margin-top: -1px;
+  position: relative;
+}
+
+.dashboard .overlap-group {
+  height: 1024px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1440px;
+}
+
+.dashboard .custom-sidenav-paper {
+  align-items: flex-start;
+  background-color: var(--palette-background-paper-elevation-10);
+  display: flex;
+  flex-direction: column;
+  height: 1024px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 264px;
+}
+
+.dashboard .frame-8 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.dashboard .salacia-wave-payoff-2 {
+  height: 35.85px !important;
+  position: relative !important;
+  width: 129.6px !important;
+}
+
+.dashboard .frame-wrapper {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  height: 28px;
+  position: relative;
+}
+
+.dashboard .frame-9 {
+  flex: 1;
+  flex-grow: 1;
+  position: relative;
+  width: 56px;
+}
+
+.dashboard .div-2 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.dashboard .container-3 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  padding: 8px 16px;
+  position: relative;
+  width: 100%;
+}
+
+.dashboard .icon-instance-wrapper {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  min-width: 56px;
+  position: relative;
+}
+
+.dashboard .icon-instance-node {
+  height: 24px !important;
+  position: relative !important;
+  width: 24px !important;
+}
+
+.dashboard .listitem-text-2 {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  padding: 4px 0px;
+  position: relative;
+}
+
+.dashboard .list-item-3 {
+  align-self: stretch;
+  color: var(--palette-text-primary);
+  font-family: var(--typography-body1-font-family);
+  font-size: var(--typography-body1-font-size);
+  font-style: var(--typography-body1-font-style);
+  font-weight: var(--typography-body1-font-weight);
+  letter-spacing: var(--typography-body1-letter-spacing);
+  line-height: var(--typography-body1-line-height);
+  margin-top: -1px;
+  position: relative;
+}
+
+.dashboard .custom-expandable-nav-item {
+  flex: 0 0 auto !important;
+  width: 256px !important;
+}
+
+.dashboard .list-item-4 {
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: var(--palette-primary-selected);
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.dashboard .app-bar-instance {
+  left: 256px !important;
+  position: absolute !important;
+  top: 0 !important;
+}
+
+.dashboard .app-bar-2 {
+  background-image: url(https://c.animaapp.com/tVSum2E8/img/settings-2.svg) !important;
+}

@@ -1,0 +1,120 @@
+.breadcrumbs {
+  align-items: center;
+  display: inline-flex;
+  position: relative;
+}
+
+.breadcrumbs .link-2 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  position: relative;
+}
+
+.breadcrumbs .icon-instance {
+  display: inline-flex !important;
+  flex: 0 0 auto !important;
+  width: unset !important;
+}
+
+.breadcrumbs .star-sharp {
+  align-self: stretch !important;
+  position: relative !important;
+  width: 16px !important;
+}
+
+.breadcrumbs .link-instance {
+  flex: 0 0 auto !important;
+}
+
+.breadcrumbs .separator {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.breadcrumbs .text-wrapper-2 {
+  color: var(--palette-text-secondary);
+  font-family: var(--typography-body1-font-family);
+  font-size: var(--typography-body1-font-size);
+  font-style: var(--typography-body1-font-style);
+  font-weight: var(--typography-body1-font-weight);
+  height: 24px;
+  letter-spacing: var(--typography-body1-letter-spacing);
+  line-height: var(--typography-body1-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: 7px;
+}
+
+.breadcrumbs .chevron-right-filled {
+  height: 20px !important;
+  position: relative !important;
+  width: 20px !important;
+}
+
+.breadcrumbs .link-3 {
+  position: relative;
+}
+
+.breadcrumbs .instance-node {
+  color: var(--palette-text-secondary) !important;
+}
+
+.breadcrumbs .mask {
+  background-color: var(--palette-components-breadcrumbs-collapsefill);
+  border-radius: 2px;
+  height: 16px;
+  left: 4px;
+  overflow: hidden;
+  position: relative;
+  width: 24px;
+}
+
+.breadcrumbs .more-horiz-filled {
+  height: 16px !important;
+  left: 4px !important;
+  position: absolute !important;
+  top: 0 !important;
+  width: 16px !important;
+}
+
+.breadcrumbs .separator-2 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.breadcrumbs .separator-icon {
+  width: 36px;
+}
+
+.breadcrumbs .separator-text {
+  width: 23px;
+}
+
+.breadcrumbs .collapsed-true {
+  border-radius: 2px;
+  height: 16px;
+  overflow: hidden;
+  width: 32px;
+}
+
+.breadcrumbs .collapsed-false {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 8px;
+}
+
+.breadcrumbs .separator-0-icon {
+  width: 36px;
+}
+
+.breadcrumbs .separator-0-text {
+  width: 23px;
+}

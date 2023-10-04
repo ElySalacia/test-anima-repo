@@ -1,0 +1,28 @@
+.icon {
+  align-items: flex-start;
+  position: relative;
+}
+
+.icon .starsharp-10 {
+  height: 24px !important;
+  position: relative !important;
+  width: 24px !important;
+}
+
+.icon.size-inherit {
+  display: flex;
+  height: 16px;
+  width: 16px;
+}
+
+.icon.size-large {
+  display: inline-flex;
+}
+
+.icon.size-medium {
+  display: inline-flex;
+}
+
+.icon.size-small {
+  display: inline-flex;
+}

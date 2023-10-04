@@ -1,0 +1,116 @@
+.spacing-vertical {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.spacing-vertical .min-height-2 {
+  position: relative;
+  width: 1px;
+}
+
+.spacing-vertical.visibility-0-true {
+  background-color: #0096881f;
+  border-bottom-style: dashed;
+  border-bottom-width: 1px;
+  border-color: #009688;
+  border-top-style: dashed;
+  border-top-width: 1px;
+}
+
+.spacing-vertical.visibility-0-false.spacing-3-six {
+  width: 24px;
+}
+
+.spacing-vertical.visibility-0-false.spacing-3-one {
+  width: 4px;
+}
+
+.spacing-vertical.visibility-0-true.spacing-3-one {
+  width: 6px;
+}
+
+.spacing-vertical.spacing-3-five.visibility-0-false {
+  width: 20px;
+}
+
+.spacing-vertical.spacing-3-five.visibility-0-true {
+  width: 22px;
+}
+
+.spacing-vertical.visibility-0-false.spacing-3-three {
+  width: 12px;
+}
+
+.spacing-vertical.visibility-0-true.spacing-3-seven {
+  width: 30px;
+}
+
+.spacing-vertical.visibility-0-false.spacing-3-seven {
+  width: 28px;
+}
+
+.spacing-vertical.visibility-0-true.spacing-3-three {
+  width: 14px;
+}
+
+.spacing-vertical.visibility-0-true.spacing-3-eight {
+  width: 34px;
+}
+
+.spacing-vertical.spacing-3-four.visibility-0-true {
+  width: 18px;
+}
+
+.spacing-vertical.visibility-0-true.spacing-3-six {
+  width: 26px;
+}
+
+.spacing-vertical.visibility-0-true.spacing-3-two {
+  width: 10px;
+}
+
+.spacing-vertical.visibility-0-false.spacing-3-two {
+  width: 8px;
+}
+
+.spacing-vertical.visibility-0-false.spacing-3-eight {
+  width: 32px;
+}
+
+.spacing-vertical.visibility-0-false.spacing-3-four {
+  width: 16px;
+}
+
+.spacing-vertical.spacing-3-one .min-height-2 {
+  height: 8px;
+}
+
+.spacing-vertical.spacing-3-seven .min-height-2 {
+  height: 56px;
+}
+
+.spacing-vertical.spacing-3-six .min-height-2 {
+  height: 48px;
+}
+
+.spacing-vertical.spacing-3-eight .min-height-2 {
+  height: 64px;
+}
+
+.spacing-vertical.spacing-3-three .min-height-2 {
+  height: 24px;
+}
+
+.spacing-vertical.spacing-3-four .min-height-2 {
+  height: 32px;
+}
+
+.spacing-vertical.spacing-3-five .min-height-2 {
+  height: 40px;
+}
+
+.spacing-vertical.spacing-3-two .min-height-2 {
+  height: 16px;
+}

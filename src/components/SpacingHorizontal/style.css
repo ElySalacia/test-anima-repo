@@ -1,0 +1,242 @@
+.spacing-horizontal {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.spacing-horizontal .frame {
+  flex: 1;
+  flex-grow: 1;
+  position: relative;
+}
+
+.spacing-horizontal .line {
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1px;
+}
+
+.spacing-horizontal .img {
+  position: absolute;
+  top: 0;
+  width: 1px;
+}
+
+.spacing-horizontal .spacer {
+  position: relative;
+  width: 24px;
+}
+
+.spacing-horizontal.one {
+  height: 4px;
+}
+
+.spacing-horizontal.seven {
+  height: 28px;
+}
+
+.spacing-horizontal.six {
+  height: 24px;
+}
+
+.spacing-horizontal.eight {
+  height: 32px;
+}
+
+.spacing-horizontal.three {
+  height: 12px;
+}
+
+.spacing-horizontal.four {
+  height: 16px;
+}
+
+.spacing-horizontal.five {
+  height: 20px;
+}
+
+.spacing-horizontal.two {
+  height: 8px;
+}
+
+.spacing-horizontal .visibility-true {
+  background-color: #0096881f;
+}
+
+.spacing-horizontal .visibility-false.spacing-six {
+  width: 48px;
+}
+
+.spacing-horizontal .visibility-false.spacing-one {
+  width: 8px;
+}
+
+.spacing-horizontal .visibility-true.spacing-one {
+  width: var(--sizing-1);
+}
+
+.spacing-horizontal .spacing-five.visibility-false {
+  width: 40px;
+}
+
+.spacing-horizontal .spacing-five.visibility-true {
+  width: var(--sizing-5);
+}
+
+.spacing-horizontal .visibility-false.spacing-three {
+  width: 24px;
+}
+
+.spacing-horizontal .visibility-true.spacing-seven {
+  width: var(--sizing-7);
+}
+
+.spacing-horizontal .visibility-false.spacing-seven {
+  width: 56px;
+}
+
+.spacing-horizontal .visibility-true.spacing-three {
+  width: var(--sizing-3);
+}
+
+.spacing-horizontal .visibility-true.spacing-eight {
+  width: var(--sizing-8);
+}
+
+.spacing-horizontal .spacing-four.visibility-true {
+  width: var(--sizing-4);
+}
+
+.spacing-horizontal .visibility-true.spacing-six {
+  width: var(--sizing-6);
+}
+
+.spacing-horizontal .visibility-true.spacing-two {
+  width: var(--sizing-2-duplicate);
+}
+
+.spacing-horizontal .visibility-false.spacing-two {
+  width: 16px;
+}
+
+.spacing-horizontal .visibility-false.spacing-eight {
+  width: 64px;
+}
+
+.spacing-horizontal .visibility-false.spacing-four {
+  width: 32px;
+}
+
+.spacing-horizontal .frame.spacing-one .line {
+  height: 4px;
+}
+
+.spacing-horizontal .frame.spacing-seven .line {
+  height: 28px;
+}
+
+.spacing-horizontal .frame.spacing-six .line {
+  height: 24px;
+}
+
+.spacing-horizontal .frame.spacing-eight .line {
+  height: 32px;
+}
+
+.spacing-horizontal .frame.spacing-three .line {
+  height: 12px;
+}
+
+.spacing-horizontal .frame.spacing-four .line {
+  height: 16px;
+}
+
+.spacing-horizontal .frame.spacing-five .line {
+  height: 20px;
+}
+
+.spacing-horizontal .frame.spacing-two .line {
+  height: 8px;
+}
+
+.spacing-horizontal .frame.spacing-one .img {
+  height: 4px;
+  left: 7px;
+}
+
+.spacing-horizontal .frame.spacing-seven .img {
+  height: 28px;
+  left: 55px;
+}
+
+.spacing-horizontal .frame.spacing-six .img {
+  height: 24px;
+  left: 47px;
+}
+
+.spacing-horizontal .frame.spacing-eight .img {
+  height: 32px;
+  left: 63px;
+}
+
+.spacing-horizontal .frame.spacing-three .img {
+  height: 12px;
+  left: 23px;
+}
+
+.spacing-horizontal .frame.spacing-four .img {
+  height: 16px;
+  left: 31px;
+}
+
+.spacing-horizontal .frame.spacing-five .img {
+  height: 20px;
+  left: 39px;
+}
+
+.spacing-horizontal .frame.spacing-two .img {
+  height: 8px;
+  left: 15px;
+}
+
+.spacing-horizontal .frame.spacing-one .spacer {
+  height: 16px;
+  left: 4px;
+}
+
+.spacing-horizontal .frame.spacing-seven .spacer {
+  height: 28px;
+  left: 16px;
+}
+
+.spacing-horizontal .frame.spacing-six .spacer {
+  height: 24px;
+  left: 12px;
+}
+
+.spacing-horizontal .frame.spacing-eight .spacer {
+  height: 32px;
+  left: 20px;
+}
+
+.spacing-horizontal .frame.spacing-three .spacer {
+  height: 16px;
+  left: 4px;
+}
+
+.spacing-horizontal .frame.spacing-four .spacer {
+  height: 16px;
+  left: 4px;
+}
+
+.spacing-horizontal .frame.spacing-five .spacer {
+  height: 20px;
+  left: 8px;
+}
+
+.spacing-horizontal .frame.spacing-two .spacer {
+  height: 16px;
+  left: 4px;
+}

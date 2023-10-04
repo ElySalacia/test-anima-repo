@@ -1,0 +1,1 @@
+export { SizeMediumWrapper } from "./SizeMediumWrapper";

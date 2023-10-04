@@ -1,0 +1,28 @@
+.size-medium-wrapper {
+  align-items: flex-start;
+  position: relative;
+}
+
+.size-medium-wrapper .starsharp-13 {
+  height: 24px !important;
+  position: relative !important;
+  width: 24px !important;
+}
+
+.size-medium-wrapper.size-0-inherit {
+  display: flex;
+  height: 16px;
+  width: 16px;
+}
+
+.size-medium-wrapper.size-0-large {
+  display: inline-flex;
+}
+
+.size-medium-wrapper.size-0-medium {
+  display: inline-flex;
+}
+
+.size-medium-wrapper.size-0-small {
+  display: inline-flex;
+}

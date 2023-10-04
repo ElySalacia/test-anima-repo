@@ -1,0 +1,48 @@
+.list-item {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 260px;
+}
+
+.list-item .container {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  position: relative;
+  width: 100%;
+}
+
+.list-item .listitem-text {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  padding: 4px 0px;
+  position: relative;
+}
+
+.list-item .text-wrapper-3 {
+  align-self: stretch;
+  margin-top: -1px;
+  position: relative;
+}
+
+.list-item.selected {
+  background-color: var(--palette-primary-selected);
+}
+
+.list-item.focus {
+  background-color: var(--palette-action-focus);
+}
+
+.list-item.disabled .text-wrapper-3 {
+  color: var(--palette-text-disabled);
+}
+
+.list-item:hover {
+  background-color: var(--palette-action-hover);
+}

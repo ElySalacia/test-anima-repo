@@ -1,0 +1,84 @@
+.custom-expandable {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 280px;
+}
+
+.custom-expandable .container-wrapper {
+  align-items: flex-start;
+  align-self: stretch;
+  border-radius: 4px;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.custom-expandable .container-2 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  padding: 8px 16px;
+  position: relative;
+  width: 100%;
+}
+
+.custom-expandable .left-content {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  min-width: 56px;
+  position: relative;
+}
+
+.custom-expandable .instance-node-2 {
+  flex: 0 0 auto !important;
+}
+
+.custom-expandable .instance-node-3 {
+  height: 24px !important;
+  position: relative !important;
+  width: 24px !important;
+}
+
+.custom-expandable .list-item-wrapper {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  padding: 4px 0px;
+  position: relative;
+}
+
+.custom-expandable .list-item-2 {
+  align-self: stretch;
+  color: var(--palette-text-primary);
+  font-family: var(--typography-body1-font-family);
+  font-size: var(--typography-body1-font-size);
+  font-style: var(--typography-body1-font-style);
+  font-weight: var(--typography-body1-font-weight);
+  letter-spacing: var(--typography-body1-letter-spacing);
+  line-height: var(--typography-body1-line-height);
+  margin-top: -1px;
+  position: relative;
+}
+
+.custom-expandable .list-item-instance {
+  align-self: stretch !important;
+  border-radius: 4px !important;
+  flex: 0 0 auto !important;
+  overflow: hidden !important;
+  padding: 0px 0px 0px 56px !important;
+  width: 100% !important;
+}
+
+.custom-expandable.is-open-false {
+  gap: 10px;
+}

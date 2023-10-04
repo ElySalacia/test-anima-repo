@@ -1,0 +1,20 @@
+.iconbutton-small {
+  align-items: center;
+  border-radius: 100px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  padding: 5px;
+  position: relative;
+}
+
+.iconbutton-small .design-component-instance-node {
+  flex: 0 0 auto !important;
+}
+
+.iconbutton-small .starsharp-20 {
+  height: 24px !important;
+  position: relative !important;
+  width: 24px !important;
+}
